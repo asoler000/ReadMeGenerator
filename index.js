@@ -86,8 +86,8 @@ function generateHTML(answers) {
 <body>
   <div class="jumbotron jumbotron-fluid">
   <div class="container">
-  <div id="badges">Languages Used In Project <span class="badge badge-success">${answers.languages}</span></h1>
-  <h1 class="display-4" style="background:white; padding:2em>${answers.projectTittle}</div>
+  <div id="badges" style="padding:1em">Languages Used In Project <span class="badge badge-success">${answers.languages}</span></h1>
+  <h1 class="display-4" style="background:white; padding:2em">${answers.projectTittle}</h1>
   <h2>Read Me</h2>
   
   <h3>Table Of Contents</h3>
