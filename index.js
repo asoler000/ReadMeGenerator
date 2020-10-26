@@ -13,6 +13,11 @@ function promptUser() {
         },
         {
             type: "input",
+            message: "What is your email",
+            name: "email"
+        },
+        {
+            type: "input",
             message: "What is your Project Title?",
             name: "projectTittle"
         },
