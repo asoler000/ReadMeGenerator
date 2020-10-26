@@ -51,15 +51,12 @@ function promptUser() {
             name: "instructionExample"
         },
         {
-            type: "input",
-            message: "provide License name ",
-            name: "licenseName"
-        },
-        {
-            type: "input",
-            message: "provide License url ",
-            name: "licenseUrl"
-        },
+    type: "list",
+    name: "license",
+    message: "What kind of license should your project have?",
+    choices: ["MIT", "APACHE 2.0", "GPL 3.0", "BSD 3", "None"],
+  },
+    
         {
             type: "input",
             message: "please enter git hub user names of the contributor if any (If there are mulitple contributor, seperate names with comma and no space! )",
